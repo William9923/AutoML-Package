@@ -10,7 +10,7 @@ jobs:
         id: model
         uses: pycaret/pycaret-git-actions@automl
         with:
-          DATASET: "juice"
+          DATASET: "data/example/juice"
           TARGET: "Purchase"
           USECASE: "classification"
       - name: Upload model.pkl
